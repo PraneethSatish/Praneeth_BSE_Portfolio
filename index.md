@@ -43,15 +43,12 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+[https://www.youtube.com/watch?v=LAsJ_gsJFeg](url)
 For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- My project includes a 5V Relay Module, a capacitive soil moisture sensor, a water pump, and an Arduino UNO R4. These components work perfectly together with my laptop (the external power source), to monitor soil moisture. When the water pump is connected, it will mtor water from a bowl or bucket into the plant when needed and will perfectly add the certain amount of water needed. The relay module is like the messenger, packaging messages and data between the arduino and laptop and the soil sensor and the water pump. With everything working otgether, a plant will be rightfully taken care of. 
+- I have finished the code for the soil moisture sensor and the relay module to tell accurate information to the laptoo. I am able to understand soil moisture. 
+- The water pump requires mutiple layers of soldering to fuly connect, and the motor must be perfectly screwed in to fix. I am still working on fixing the code for the water pump also. 
+- I am planning to finish my main project by the 3rd week. Modifications will be tough, and will take at least 2 weeks to complete. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
