@@ -31,15 +31,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- The code was designed to make the soil moisture sensor work. This code will be able to tell me when a plant is ok or in need of water. It took just one day, of looking through diagrams and past work, to find and connec the right code. After an hour of debugging, the code worked, and now I am able to calibrate soil moisture. 
+- The code being so easy to finish was very surprising, especially in C#, because the syntax and indentation being very complex. I was able to find the source code, and easily ge the base code for my sensor. 
+- I overcame my fear of coding, and while it may sound childish, I always believed I am not able to code, and this was very empowering for me, because I was able to learn a lot more on the language, and I was able to calibrate soil sensors and their inner - workings. 
+- I need to connect the water pump, and I need to be able to relay expressions. 
 
 # First Milestone
 
