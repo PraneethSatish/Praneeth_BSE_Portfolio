@@ -1,11 +1,6 @@
 # IOT Plant Watering Monitor
 Forget to water your plants or having fun on vacation, don't worry about your plants. With this futuristic plant monitor, your plants stay healthy with an auto watering system, that can detect when the soil is dry. With a 3d printed case and a screen showing moisture level and a diagram of the soil, everything will be ok. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
