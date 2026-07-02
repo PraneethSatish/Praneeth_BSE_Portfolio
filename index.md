@@ -41,7 +41,10 @@ For your first milestone, describe what your project is and how you plan to buil
 - I am planning to finish my main project by the 3rd week. Modifications will be tough, and will take at least 2 weeks to complete. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<img width="1562" height="906" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
+
+
+
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
