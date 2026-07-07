@@ -40,7 +40,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - I am planning to finish my main project by the 3rd week. Modifications will be tough, and will take at least 2 weeks to complete. 
 
 # Schematics 
-<img width="1562" height="906" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
+<img width="1562" height="500" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
 
 
 
