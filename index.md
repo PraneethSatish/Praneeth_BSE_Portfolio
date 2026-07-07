@@ -25,15 +25,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/InGHRm_oWCo?si=Tfs3ni-HGRzLjzwi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - The code was designed to make the soil moisture sensor work. This code will be able to tell me when a plant is ok or in need of water. It took just one day, of looking through diagrams and past work, to find and connec the right code. After an hour of debugging, the code worked, and now I am able to calibrate soil moisture. 
 - The code being so easy to finish was very surprising, especially in C#, because the syntax and indentation being very complex. I was able to find the source code, and easily ge the base code for my sensor. 
 - I overcame my fear of coding, and while it may sound childish, I always believed I am not able to code, and this was very empowering for me, because I was able to learn a lot more on the language, and I was able to calibrate soil sensors and their inner - workings. 
 - I need to connect the water pump, and I need to be able to relay expressions. 
 
 # First Milestone
-
-[https://www.youtube.com/watch?v=LAsJ_gsJFeg](url)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAsJ_gsJFeg?si=NwBSCBkvz6XWBHNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - My project includes a 5V Relay Module, a capacitive soil moisture sensor, a water pump, and an Arduino UNO R4. These components work perfectly together with my laptop (the external power source), to monitor soil moisture. When the water pump is connected, it will mtor water from a bowl or bucket into the plant when needed and will perfectly add the certain amount of water needed. The relay module is like the messenger, packaging messages and data between the arduino and laptop and the soil sensor and the water pump. With everything working otgether, a plant will be rightfully taken care of. 
 - I have finished the code for the soil moisture sensor and the relay module to tell accurate information to the laptoo. I am able to understand soil moisture. 
