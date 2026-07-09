@@ -42,6 +42,7 @@ For your first milestone, describe what your project is and how you plan to buil
 # Schematics 
 <img width="1562" height="500" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
 <img width="682" height="517" alt="Screenshot 2026-07-08 at 2 50 32 PM" src="https://github.com/user-attachments/assets/22209b84-deec-4a88-ad50-ed21b7c02eab" />
+
 This diagram at the top shows the inner workings of my plant monitoring and self watering system and how it will look. This wiring diagram taught me how to connect the wires in the right place. 
 This screenshot shows my CAD design for my 3d print. 
 
