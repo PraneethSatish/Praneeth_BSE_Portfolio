@@ -12,15 +12,10 @@ Forget to water your plants or having fun on vacation, don't worry about your pl
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- For my 3rd milestone, I was able to complete many new things. I have created a 3d print enclosure. This will house all my components, and has holes for the USB - C, and a platform for the arduino where you can see the expressions being relayed on soil and water moisture. I hae also taken a few days to work and debug code for the expressions, so that depending on the moisture the sensor is reading, the expressions will be happy, sad, or neutral. I have also been able to setup thr BLYNK App where I can control the water sensor and watering machine remotely. 
+- My biggest challenge was trying to keep the code working while making different modifications. It also took a lot of researching to learn how to set up the BLYNK App. 
+- I learned how to really apply my skills on ONSHAPE, how to code different pieces of engineering on Arduino IDE, and I even learned how to make sure my components are stable without my help. 
+- I hope to learn how to make a working screen, and get this idea out into the real world of innovation and entreprenuership. 
 
 
 
