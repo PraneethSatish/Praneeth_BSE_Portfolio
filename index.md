@@ -37,7 +37,7 @@ For your first milestone, describe what your project is and how you plan to buil
 # Schematics 
 <img width="1562" height="500" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
 <img width="410" height="405" alt="Screenshot 2026-07-09 at 4 07 17 PM" src="https://github.com/user-attachments/assets/8a3e47f8-7629-4d64-8fce-e74664d25a7b" />
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/49232e0e-5db5-4dd8-85e1-0ae113b99997" />
+<img width="7000" height="600" alt="image" src="https://github.com/user-attachments/assets/49232e0e-5db5-4dd8-85e1-0ae113b99997" />
 
 
 This diagram at the top shows the inner workings of my plant monitoring and self watering system and how it will look. This wiring diagram taught me how to connect the wires in the right place. 
