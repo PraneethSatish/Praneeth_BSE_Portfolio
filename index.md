@@ -89,6 +89,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Other Resources/Examples
 - [DIY Plant Watering Setup]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://circuitdigest.com/microcontroller-projects/build-a-simple-plant-watering-system-using-arduino#how-to-make-an-automatic-plant-watering-system))
 - [OnShape]([https://sviatil0.github.io/Sviatoslav_BSE/](https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=6a4587586d2bd086b9c24146))
-
-
+- [Blynk Setup]([https://blynk.cloud/dashboard/336066/templates/edit/744946/dashboard](url)
 
