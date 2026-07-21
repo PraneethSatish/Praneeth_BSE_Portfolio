@@ -91,3 +91,4 @@ Don't forget to place the link of where to buy each component inside the quotati
 - [OnShape]([https://sviatil0.github.io/Sviatoslav_BSE/](https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=6a4587586d2bd086b9c24146))
 
 
+
