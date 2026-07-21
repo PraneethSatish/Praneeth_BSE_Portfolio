@@ -4,7 +4,7 @@ Forget to water your plants or having fun on vacation, don't worry about your pl
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Praneeth S | Valley Christiain High School| Mechanical Engineering | Incoming Freshman
+| Praneeth S | Valley Christian High School| Mechanical Engineering | Incoming Freshman
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
