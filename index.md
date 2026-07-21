@@ -171,6 +171,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Capacitive Soil Sensor | Monitors Soil Moisture | $3.47 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Arduino UNO R4 Wifi | To relay expressions to me on how the plant is feeling, connect to laptop code, connect all components together | $27.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | 5V Water Pump | To pump water from bowl to plant | $1.12 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| ARDU Camera | To show a live feed of the plant | $10.26 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://store.arduino.cc/products/hm01b0-qvga-monochrome-dvp-camera-module-for-arduino-giga-r1-wifi-board)"> Link </a> |
 
 # Other Resources/Examples
 - [DIY Plant Watering Setup]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://circuitdigest.com/microcontroller-projects/build-a-simple-plant-watering-system-using-arduino#how-to-make-an-automatic-plant-watering-system))
