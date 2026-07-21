@@ -35,18 +35,14 @@ For your first milestone, describe what your project is and how you plan to buil
 - I am planning to finish my main project by the 3rd week. Modifications will be tough, and will take at least 2 weeks to complete. 
 
 # Schematics 
+
+This diagram at the top shows the inner workings of my plant monitoring and self watering system and how it will look. This wiring diagram taught me how to connect the wires in the right place. This screenshot shows my CAD design for my 3d print. The blynk setup is how I run a water motor.
+
 <img width="1562" height="500" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
 <img width="410" height="405" alt="Screenshot 2026-07-09 at 4 07 17 PM" src="https://github.com/user-attachments/assets/8a3e47f8-7629-4d64-8fce-e74664d25a7b" />
 <img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/49232e0e-5db5-4dd8-85e1-0ae113b99997" />
 
-
-This diagram at the top shows the inner workings of my plant monitoring and self watering system and how it will look. This wiring diagram taught me how to connect the wires in the right place. 
-This screenshot shows my CAD design for my 3d print. 
-
-
-
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #define BLYNK_TEMPLATE_ID "TMPL2D3vwtsqU"
@@ -162,8 +158,6 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -176,5 +170,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Other Resources/Examples
 - [DIY Plant Watering Setup]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://circuitdigest.com/microcontroller-projects/build-a-simple-plant-watering-system-using-arduino#how-to-make-an-automatic-plant-watering-system))
 - [OnShape]([https://sviatil0.github.io/Sviatoslav_BSE/](https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=6a4587586d2bd086b9c24146))
-- [Blynk Setup]([https://blynk.cloud/dashboard/336066/templates/edit/744946/dashboard](url)
+- [Blynk Setup]([https://blynk.cloud/dashboard/336066/templates/edit/744946/dashboard])
 
