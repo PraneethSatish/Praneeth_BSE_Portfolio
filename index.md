@@ -37,7 +37,7 @@ For your first milestone, describe what your project is and how you plan to buil
 # Schematics 
 <img width="1562" height="500" alt="image" src="https://github.com/user-attachments/assets/49f7b9c0-5fda-4124-a5d6-da3216c4634e" />
 <img width="410" height="405" alt="Screenshot 2026-07-09 at 4 07 17 PM" src="https://github.com/user-attachments/assets/8a3e47f8-7629-4d64-8fce-e74664d25a7b" />
-<img width="2462" height="1380" alt="image" src="https://github.com/user-attachments/assets/49232e0e-5db5-4dd8-85e1-0ae113b99997" />
+<img width="2000" height="600" alt="image" src="https://github.com/user-attachments/assets/49232e0e-5db5-4dd8-85e1-0ae113b99997" />
 
 
 This diagram at the top shows the inner workings of my plant monitoring and self watering system and how it will look. This wiring diagram taught me how to connect the wires in the right place. 
@@ -49,29 +49,115 @@ This screenshot shows my CAD design for my 3d print.
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-/*
- * This Arduino UNO R4 code was developed by newbiely.com
- *
- * This Arduino UNO R4 code is made available for public use without any restriction
- *
- * For comprehensive instructions and wiring diagrams, please visit:
- * https://newbiely.com/tutorials/arduino-uno-r4/arduino-uno-r4-soil-moisture-sensor
- */
+#define BLYNK_TEMPLATE_ID "TMPL2D3vwtsqU"
+#define BLYNK_TEMPLATE_NAME "plant watering updated"
+#define BLYNK_AUTH_TOKEN "z4wL7XeK3TLpwUoy5LRbItaJMjz4lidk"
 
-#define AOUT_PIN A0 // Defines pin A0 to read from the moisture sensor
+#include <BlynkSimpleWifi.h>
+#include <EEPROM.h>
+#include "Arduino_LED_Matrix.h" // Required library for the Uno R4 LED matrix
 
-void setup() {
-  Serial.begin(9600); // Initializes serial communication at 9600 bps
+#define moisture_sensor A0 
+#define relay 7 
+
+// 1. CALIBRATION VALUES: Change these based on your specific sensor tests
+const int DRY_VALUE = 3800;  // Value in open air (dry)
+const int WET_VALUE = 1800;  // Value in water (wet)
+
+BlynkTimer timer; 
+ArduinoLEDMatrix matrix; 
+
+char ssid[] = "J11"; 
+char pass[] = "Blue@J11"; 
+
+int eeprom_addr = 0; 
+int sensorValue = 0; 
+int prev_pump_status = 0; 
+int pump_status = 0; 
+float moist_percent = 0.00; 
+
+// LED Frames
+const uint32_t HAPPY_LED[] = { 0x3fc48a95, 0x58019fd9, 0x5889871 }; 
+const uint32_t NORMAL_LED[] = { 0x3fc40298, 0xd98d8019, 0x5889871 }; 
+const uint32_t SAD_LED[] = { 0x3fc48a9d, 0xd8898018, 0x71889905 }; 
+
+BLYNK_WRITE(V1){ 
+  pump_status = param.asInt(); 
+  EEPROM.write(eeprom_addr, pump_status); 
+  prev_pump_status = EEPROM.read(eeprom_addr); 
+  Serial.println(prev_pump_status); 
+  Serial.println(pump_status); 
+} 
+
+void sendSensor(){ 
+  Blynk.virtualWrite(V0, moist_percent); 
+} 
+
+void init_renesas_MCU_IO(){ 
+  pinMode(relay, OUTPUT); 
+  pinMode(moisture_sensor, INPUT); 
+  analogReadResolution(12); // Sets 12-bit resolution (0-4095 range)
+  matrix.begin(); 
+} 
+
+void track_soil_moisture(){ 
+  sensorValue = analogRead(moisture_sensor); 
+  
+  // Maps the 12-bit input value directly to a 0-100 percentage scale
+  moist_percent = map(sensorValue, DRY_VALUE, WET_VALUE, 0, 100); 
+  moist_percent = constrain(moist_percent, 0, 100); 
+
+  Serial.print("Raw Sensor Value: "); 
+  Serial.print(sensorValue); 
+  Serial.print(" | Moisture: "); 
+  Serial.print(moist_percent); 
+  Serial.println("%"); 
+
+  if(moist_percent >= 0 && moist_percent < 33.33){ 
+    Serial.println("DRY"); 
+    matrix.loadFrame(SAD_LED); 
+  } 
+  else if(moist_percent >= 33.33 && moist_percent < 66.66){ 
+    Serial.println("MODERATE"); 
+    matrix.loadFrame(NORMAL_LED); 
+  } 
+  else if(moist_percent >= 66.66 && moist_percent <= 100){ 
+    Serial.println("WET"); 
+    matrix.loadFrame(HAPPY_LED); 
+  } 
+} 
+
+void setup() { 
+  Serial.begin(9600); 
+  init_renesas_MCU_IO(); 
+  
+  // Populates data variables right away before loops fire
+  track_soil_moisture(); 
+  
+  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass); 
+  timer.setInterval(1000L, sendSensor); 
+  
+  prev_pump_status = EEPROM.read(eeprom_addr); 
+  pump_status = prev_pump_status; 
+} 
+
+void loop() { 
+  Blynk.run(); 
+  timer.run(); 
+  track_soil_moisture(); 
+  
+  if(pump_status == 0){ 
+    Serial.println("Water pump is off"); 
+    digitalWrite(relay, LOW); 
+  } 
+  else if(pump_status == 1){ 
+    Serial.println("Water pump is on"); 
+    digitalWrite(relay, HIGH); 
+  } 
+  delay(500); 
 }
 
-void loop() {
-  int value = analogRead(AOUT_PIN); // Reads the moisture level from the sensor
 
-  Serial.print("Moisture: "); // Sends the text 'Moisture: ' to the serial monitor
-  Serial.println(value); // Prints the moisture level to the serial monitor
-
-  delay(500); // Pauses the loop for 500 milliseconds
-}
 
 ```
 
